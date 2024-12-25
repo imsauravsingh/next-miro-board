@@ -14,7 +14,7 @@ export const EmptyOrg = () => {
       <div className="mt-6">
         <Dialog>
           <DialogTrigger asChild>
-            <Button size="lg">Create an organization</Button>
+            <Button size="lg">Create organization</Button>
           </DialogTrigger>
           <DialogContent className="p-0 bg-transparent max-w-[400px] border-none">
             <CreateOrganization routing="hash" />
